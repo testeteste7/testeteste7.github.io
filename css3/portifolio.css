@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  height: 100px;
+  background: rgb(14, 14, 15);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  flex: 10%;
+  margin-left: 10%;
+  text-align: left;
+}
+
+.logo h1 {
+  font-family: "Lobster", sans-serif;
+  color: #180f4a;
+  font-size: 40px;
+}
+
+.menu {
+  flex: 80%;
+  text-align: right;
+  padding: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #5c5b5f;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 16px;
+}
+
+.menu a:hover {
+  color: floralwhite;
+  border-top: 4px solid gray;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.headline {
+  margin-left: 10%;
+  flex: 40%;
+}
+
+.img-headline {
+  margin-right: 10%;
+  flex: 40%;
+  text-align: center;
+}
+
+.first {
+  font-weight: 900;
+  font-size: 20px;
+  color: #180f4a;
+  padding: 0%;
+  margin: 0%;
+  font-size: 70px;
+}
+
+.second {
+  font-weight: 900;
+  font-size: 20px;
+  color: #5c5b5f;
+  padding: 0%;
+  margin: 0%;
+  font-size: 40px;
+}
+
+.txt-headline {
+  display: inline-block;
+  background-color: rgb(14, 14, 15);
+  margin-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  padding: 5%;
+  width: 90%;
+}
+
+.txt-headline h2 {
+  width: 100%;
+  font-size: 50px;
+  margin: 0;
+  font-family: "Lobster", sans-serif;
+  font-weight: bold;
+  color: #180f4a;
+}
+
+section {
+  display: inline-block;
+  background-color: black;
+  margin-top: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  padding: 5%;
+  width: 90%;
+  align-items: space-between;
+}
+
+section h2 {
+  width: 100%;
+  font-size: 50px;
+  margin: 0;
+  font-family: "Lobster", sans-serif;
+  font-weight: bold;
+  color: #180f4a;
+}
+
+.habilidades {
+  display: flex;
+  margin-top: 5%;
+}
+
+.card {
+  display: inline-block;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: center;
+  width: 30%;
+  height: 40vh;
+  padding: 40px;
+  margin: 1%;
+  border: 1px solid #5c5b5f;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card img {
+  width: 90px;
+}
+
+.card:hover {
+  transform: scale(1);
+  transition: 0.5;
+  background-color: #180f4a;
+  color: rgb(255, 255, 255);
+  border: 3px solid #180f4a;
+}

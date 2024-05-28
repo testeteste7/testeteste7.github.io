@@ -1,0 +1,151 @@
+
+.center{
+    text-align:center;
+    border:solid;
+    border-radius: 10px;
+    background: red;
+}
+
+body{
+    background:black;
+}
+
+p{
+    color:white;
+    text-align: justify;
+    font-family: 
+}
+
+a.botao1{
+    text-decoration: none;
+    letter-spacing:1px;
+    word-spacing: 3px;
+    background: grey;
+    padding: 7px;
+    border: solid 1px white;
+    border-radius:5px;
+    color:black;
+    font-weight: bolder;
+
+}
+
+a.botao1:hover{
+    text-decoration: none;
+    letter-spacing:1px;
+    word-spacing: 3px;
+    background: rgb(209, 201, 201);
+    padding: 12px;
+    border: solid 2px rgb(134, 127, 127);
+    border-radius: 5px;
+
+}
+
+a.botao2{
+    text-decoration: none;
+    letter-spacing:1px;
+    word-spacing: 3px;
+    background: ;
+    padding: 7px;
+    border: double 3px blue;
+    border-radius:5px;
+    color:blue;
+    font-weight: bolder;
+}
+
+a.botao2:hover{
+    text-decoration: none;
+    letter-spacing:1px;
+    word-spacing: 3px;
+    background: blue;
+    padding: 7px;
+    border: double 3px blue;
+    border-radius:5px;
+    color:white;
+    font-weight: bolder;
+}
+
+a.botao3{
+    text-decoration: none;
+    letter-spacing:1px;
+    word-spacing: 2px;
+    border-radius:5px;
+    color:red;
+    font-weight: bolder;
+}
+
+a.botao3:hover{
+    text-decoration: underline;
+    letter-spacing:1px;
+    word-spacing: 2px;
+    border-bottom: red 10px;
+    color:red;
+    font-weight: bolder;
+}
+
+a.botao4{
+    text-decoration: none;
+    letter-spacing:1px;
+    word-spacing: 2px;
+    border-radius:5px;
+    color:white;
+    font-weight: bolder;
+}
+
+a.botao4:hover{
+    text-decoration: underline ;
+    letter-spacing:1px;
+    word-spacing: 2px;
+    border-radius:5px;
+    color:white;
+    font-weight: bolder;
+    cursor:wait
+}
+
+.cont{
+    display: inline-block;
+    background: url('../img/w.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    opacity: 0.4;
+}
+
+.div1{
+    display: inline-block;
+    position: relative;
+    
+   
+    background: rgb(255, 0, 157);
+    width: 33%;
+    height: 100px;
+}
+
+.div2{
+    display: inline-block;
+    position: relative;
+    z-index:3;
+    background: red;
+    width: 33%;
+    height: 100px;
+}
+
+.div3{
+    display: inline-block;
+    background: orange;
+    width: 33%;
+    height: 100px;
+}
+
+.whats{
+    position: fixed;
+    background: green;
+    color: white;
+    width: 10%;
+    bottom:0%;
+    right:0%;
+}
+
+
+
+

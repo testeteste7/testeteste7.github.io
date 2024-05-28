@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    background: rgb(160, 152, 152);
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
+img{
+    background-size: cover;
+    background-position: center;
+}
+
+img:hover{
+    opacity: 0.8;
+}
+
+
+.foto img{
+    float: left;
+    margin-right: 10px;
+    text-align: justify;
+    overflow: auto;
+}
+
+ul{
+    background:black ;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    }
+
+li a:hover{
+    background: #ccc;
+    color:black
+    }
+
+.login{
+    float: right;
+}
+
+.login a:hover{
+    background: orangered;
+    color:black
+}
+
+a.botao{
+    padding: 15px;
+    background: black;
+    color:white;
+    text-decoration: none;
+
+}
+
+a.botao:hover{
+    opacity: 0.6;
+  }
+

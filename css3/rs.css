@@ -1,0 +1,36 @@
+@media screen and (max-width: 1005px) {
+  .navbar {
+    position: relative;
+  }
+
+  .logo {
+    margin: 0%;
+    font-size: 30px;
+  }
+
+  .headline-text {
+    flex: 100%;
+    margin: 5%;
+    text-align: justify;
+  }
+
+  .headline-text h2 {
+    text-align: center;
+  }
+
+  .img-head {
+    flex: 100%;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .wpp {
+    display: none;
+  }
+
+  .rodape {
+    flex: 100%;
+    margin: 5%;
+    text-align: left;
+  }
+}

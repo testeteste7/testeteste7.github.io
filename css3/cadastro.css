@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(94, 93, 93);
+}
+
+header {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+.form {
+  margin-top: 160px;
+  margin-left: 38%;
+  margin-right: 38%;
+}
+
+footer {
+  margin-top: 255px;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+}
